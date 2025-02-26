@@ -3,7 +3,10 @@
 This project is a dual utility module on the basis of an Arduino nano that does a bunch of neat things.
 It is fully through hole and has relatively standard parts (safe for maybe the DAC module but you can get that on aliexpress)
 
-## Status: Confirmed working!
+## Status
+Has been built by multiple people and works fine! 
+I have gotten complaints about small holes for the pushbuttons so I created a V1.1 with 
+bigger holes in the PCB and the panel to allow a wider variety of pushbutton parts.
 
 ## Hardware and PCB
 
