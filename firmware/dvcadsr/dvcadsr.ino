@@ -3,6 +3,8 @@
 #include <Adafruit_MCP4728.h>
 #include <Wire.h>
 
+// uses "Analog digital Multiplexers" library https://docs.arduino.cc/libraries/analog-digital-multiplexers/
+// https://github.com/stechio/arduino-ad-mux-lib?tab=readme-ov-file
 using namespace admux;
 Mux mux(Pin(A7, INPUT, PinType::Analog), Pinset(8, 7, 6));
 Adafruit_MCP4728 mcp;

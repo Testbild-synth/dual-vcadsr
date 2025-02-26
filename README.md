@@ -7,7 +7,7 @@ It is fully through hole and has relatively standard parts (safe for maybe the D
 
 ## Hardware and PCB
 
-<img src="images/dvcadsr_panel.JPG" width="20%" height="20%"> <img src="images/dvcadsr.JPG" width="20%" height="20%">
+<img src="images/dvcadsr_panel.JPG" width="15%" height="15%"> <img src="images/dvcadsr.png" width="20%" height="20%">
 
 The module has one Panel PCB and one circuit PCB, relatively straight forward, just order with standard settings on jlcpcb or any other pcb site.
 The build is relatively straight forward, but there is one spot at the top where the IC and pot kind of overlap a bit. be sure
@@ -16,6 +16,9 @@ to not have stuff standing out too much from the IC so that it contacts the meta
 ## Code
 
 The code is under the firmware folder and can be uploaded to the nano using the arduino IDE.
+For the MUX chip it uses the "Analog digital Multiplexers" library found here: [source repo](https://github.com/stechio/arduino-ad-mux-lib?tab=readme-ov-file) ,
+[arduino libraries page](https://docs.arduino.cc/libraries/analog-digital-multiplexers/).
+You can get it from the library browser inside arduino IDE.
 
 ## Operation
 In general, to make it easier on myself I have wired it such that the CV replaces knob values so the knobs are useless if something is plugged in.
