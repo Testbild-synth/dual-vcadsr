@@ -13,6 +13,11 @@ The module has one Panel PCB and one circuit PCB, relatively straight forward, j
 The build is relatively straight forward, but there is one spot at the top where the IC and pot kind of overlap a bit. be sure
 to not have stuff standing out too much from the IC so that it contacts the metal housing of the pots and shorts. should be doable
 
+## Status
+Has been built by multiple people and works fine! 
+I have gotten complaints about small holes for the pushbuttons so I created a V1.1 with 
+bigger holes in the PCB and the panel to allow a wider variety of pushbutton parts.
+
 ## Code
 
 The code is under the firmware folder and can be uploaded to the nano using the arduino IDE.
